@@ -1,0 +1,314 @@
+body {
+	background: #f4f4f4;
+}
+::selection {
+	background-color: #26A69A;
+	color: #fff;
+}
+*::-webkit-scrollbar {
+        width: 2px;
+        background: rbga(0, 0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+		width: 2px;
+        background-color: #999999;
+}
+
+/* head css */
+.head {
+	background: #26A69A;
+	width: 100% + 10px;
+	height: 250px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.head a {
+	text-decoration: none;
+	color: white;
+}
+
+/*navigation css */
+.nav {
+	width: 105%;
+	height: 55px;
+	background: #00897B;
+	position: fixed;
+	left: -10px;
+	top: 0px;
+	box-shadow: .3px .5px 10px #424242;
+}
+.nav li a {
+	color: white;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.nav li {
+	display: inline;
+}
+
+/* card css */
+.card {
+	width: 80%;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	margin: 0 auto; 
+	margin-top: -125px;
+	transition: all .2s ease-in-out;
+}
+.card .title{
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 25px;
+		background: rgba(0, 0, 0, 0.3);
+	border-radius: 0px 0px 0px 0px;
+	position: relative;
+	top: 475px;
+	height: 40px;
+}
+.card .des{
+	color: rgba(0, 0, 0, 0.87);
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	padding-left: 12px;
+	padding-top: 5px;
+	background: white;
+	height: 62px;
+	border-radius: 0px 0px 2px 2px;
+	position: relative;
+	top: 440px;
+}
+
+/* more button in cards css */
+.more {
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	background: #455A64;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 330px;
+	left: 85%;
+	transition: all .2s ease-in-out;
+}
+.more i {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding: 4.5px;
+	font-family: Material Icons;
+	font-style: normal;
+}
+.more a {
+	text-decoration: none;
+	color: white;
+}
+.more:hover {
+	background-color: #6b8a98;
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3), 0 14px 12px 0 rgba(0, 0, 0, 0.17);
+}
+/* Card Description Card's css */
+/*.container{
+	width: 100%;
+	height: 90%;
+	position: relative;
+	top: 45px;
+	left: 5%;
+}*/
+.card-des{
+	background-color: #455A64;
+	width: 90%;
+	height: 90%;
+	border-radius: 2px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	position: fixed;
+	left: 5%;
+}
+.close{
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	background: #FF5722;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 90%;
+	left: 48%;
+	transition: all .2s ease-in-out;
+}
+.close i {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding: 5px 3px 4px 4px;
+	font-family: Material Icons;
+	font-style: normal;
+}
+.close a {
+	text-decoration: none;
+	color: white;
+}
+.close:hover {
+	background-color: #EF9A9A;
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3), 0 14px 12px 0 rgba(0, 0, 0, 0.17);
+}
+/* Intro video css */
+.intro {
+	width: 100% 10px;
+	height: 90%;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto; 
+	margin-top: -125px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.intro p {
+	color: rgba(0, 0, 0, 0.87);
+	font-family: Roboto, sans-serif;
+	font-size: 200%;
+	text-align: center;
+	padding-top: 25%;
+}
+.intro i {
+	font-size: 100px;
+	position: relative;
+	left: 42%;
+	top: 40%;
+	color: #455A64;
+	text-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+	transition: all .1s ease-in-out;
+}
+.intro i:hover {
+	text-shadow: 0 13px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Team info css */
+.team {
+	width: 100% 10px;
+	height: 90%;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto; 
+	margin-top: -125px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.team p {
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 400%;
+	text-align: center;
+	padding-top: 50px;
+}
+.tcard {
+	width: 25%;
+	height: 60%;
+	background: white;
+	background-size: cover;
+	background-position: center;
+	box-shadow: .3px .5px 10px #606060;
+	border-radius: 2px;
+}
+li .tcard {
+	display: inline;
+}
+
+/*slider switch css */
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  top: 500;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Responsive css for Mobile and Tablets*/
+@media screen and (orientation:portrait){
+	.card {
+	height: 85%;
+	width: 98%;
+	}
+	.card .title{
+		position: relative;
+		top: 75%;
+	}
+	.card .des{
+		position: relative;
+		top: 72.5%;
+	}
+	.more {
+		position: relative;
+		top: 80%;
+		left: 79%;
+	}
+	.intro {
+		height: 70%;
+	}
+	.intro i{
+		
+	}
+	.team {
+		height: 70%;
+	}
+	.nav {
+		height: 30%;
+	}
+	.nav a {
+		display: block;
+		text-align: center;
+		padding-top: 5px;
+		font
+	}
+	.head 
+}
